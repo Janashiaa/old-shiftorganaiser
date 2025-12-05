@@ -1,42 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Address Change</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-    </style>
+    <title>404 - Not Found</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
 
-    <div class="bg-white p-8 md:p-12 rounded-2xl shadow-2xl max-w-2xl w-full text-center">
-        
-        <div class="mb-6">
-            <svg class="h-16 w-16 text-yellow-500 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
-            </svg>
+<body>
+    <div class="not-found-page">
+        <div class="not-found-card">
+            <h1 class="nf-code">404</h1>
+            <p class="nf-title">გვერდი ვერ მოიძებნა</p>
+            <p class="nf-subtitle">მგონი crocoschedule.com გვერდს ეძებდი</p>
+
+            <div class="not_found_logo"></div>
+
+            <button class="nf-button" onclick="visitNewWeb()">
+                ეწვიე განახლებულ ვებგვერდს
+            </button>
         </div>
-
-        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Did You Mean crocoschedule.com?
-        </h1>
-
-        <a href="https://www.crocoschedule.com" class="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-full mt-6 shadow-md hover:bg-blue-700 transition-colors duration-300">
-            Visit New Site
-        </a>
-
-        <p class="text-sm text-gray-500 mt-8">
-            For any questions or assistance, please contact us at:
-            <a href="mailto:djanashia.work@gmail.com" class="text-blue-600 hover:text-blue-800 font-semibold underline">
-                djanashia.work@gmail.com
-            </a>
-        </p>
-
     </div>
-
 </body>
+
 </html>

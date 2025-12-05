@@ -1,0 +1,79 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-found-page {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.not-found-card {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 90%;
+    width: 100%;
+}
+
+.nf-code {
+    margin: 0 0 8px;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #dc2626;
+}
+
+.nf-title {
+    margin: 0 0 4px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #020617;
+}
+
+.nf-subtitle {
+    margin: 0 0 24px;
+    font-size: 14px;
+    color: #64748b;
+    text-align: center;
+}
+
+.not_found_logo {
+    width: 150px;
+    height: 150px;
+    background-image: url(404_logo.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.nf-button {
+    padding: 12px 24px;
+    border: 0;
+    border-radius: 12px;
+    background: rgba(39, 182, 84, 1);
+    color: #fff;
+    margin-top: 30px;
+    font-size: 14px;
+    user-select: none;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(42, 77, 208, 0.3);
+    cursor: pointer;
+}
+
+.nf-button:hover {
+    opacity: 0.96;
+    transform: translateY(-1px);
+}
